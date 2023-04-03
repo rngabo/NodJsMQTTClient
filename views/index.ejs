@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>MQTT Brokers</title>
+</head>
+<body>
+  <h1>MQTT Brokers</h1>
+  <ul>
+    <% brokers.forEach(function(broker) { %>
+      <li><%= broker.url %> - Topic: <%= broker.topic %></li>
+    <% }); %>
+  </ul>
+</body>
+</html>
