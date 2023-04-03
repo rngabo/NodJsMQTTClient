@@ -19,9 +19,9 @@ Make sure you have Mosquitto MQTT Broker with MBC extension already installed on
 
 Navigate to the Mosquitto directory in the terminal and run the following commands to start Mosquitto with different port numbers:
 
-mosquitto -c mosquitto.conf -p 1886
-mosquitto -c mosquitto.conf -p 1887
-mosquitto -c mosquitto.conf -p 1889
+mosquitto -c mosquitto.conf -p 1886 /n
+mosquitto -c mosquitto.conf -p 1887 /n
+mosquitto -c mosquitto.conf -p 1889 /n
 
 Navigate to the NodeJS directory in the terminal and run the following command to start the NodeJS application:
 
