@@ -19,14 +19,13 @@ Make sure you have Mosquitto MQTT Broker with MBC extension already installed on
 
 Navigate to the Mosquitto directory in the terminal and run the following commands to start Mosquitto with different port numbers:
 
-css
-Copy code
 mosquitto -c mosquitto.conf -p 1886
 mosquitto -c mosquitto.conf -p 1887
 mosquitto -c mosquitto.conf -p 1889
+
 Navigate to the NodeJS directory in the terminal and run the following command to start the NodeJS application:
 
-Copy code
+
 node app.js
 Open a web browser and go to http://localhost:3000 to see the list of brokers and the topics they are subscribed to.
 
